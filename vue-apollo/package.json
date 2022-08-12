@@ -1,0 +1,28 @@
+{
+  "name": "vue-apollo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vue/apollo-composable": "^4.0.0-alpha.19",
+    "apollo-boost": "^0.4.9",
+    "apollo-cache-inmemory": "^1.6.6",
+    "apollo-client": "^2.6.10",
+    "apollo-link": "^1.2.14",
+    "apollo-link-http": "^1.5.17",
+    "graphql": "^16.5.0",
+    "graphql-tag": "^2.12.6",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.2",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.6",
+    "vue-tsc": "^0.39.5"
+  }
+}
